@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Oswald&family=Poppins:wght@400;600&display=swap');
+
+/* general styles */
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+
+.row{
+    margin: 0;
+}
+
+a{
+    color:#ed1463;
+}
+
+
+/* fonts */
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-title{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.linkFbInsta{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Header */
+
+
+header{
+    background-color: #ed1463;
+
+}
+
+.divLogo{
+    padding-left:2vw;
+}
+
+.divTitolo{
+    padding-right:2vw;
+}
+
+.titoloVim{
+    font-size:2rem;
+}
+
+.logoVim{
+    max-width: 6rem;
+    border: 2px solid white;
+    border-radius:100%;
+}
+
+
+/* div programma */
+
+.divProgramma{
+    margin-top: 6vh;
+    margin-bottom:3vh;
+}
+
+.iconList{
+    font-size:1.4rem;
+    color:#ed1463;
+    margin-right: 10px;
+}
+
+.testoProgramma{
+    margin: 0;
+}
+
+.divLinkIcon{
+    max-width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gainsboro;
+
+}
+
+.linkProgramma{
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+
+/*  Main */
+
+
+
+.carta{
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSindaco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sismondiniImg{
+    max-width: 10vw;
+}
+
+.titoloLista{
+    font-size: 1.8rem;
+}
+
+.divConsiglieri{
+
+    margin-top:7vh;
+}
+
+
+.divColonne{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
+/* footer */
+
+footer{
+    background-color: #ed1463;
+}
+
+/* icone e link  footer */
+
+.bi-filetype-pdf{
+    
+}
+
+.iconPdf{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.divLogoFooter{
+    display: flex;
+    align-items: center;
+    margin-left:3vw;
+}
+
+.divLink{
+    display:flex;
+    align-items: center;
+}
+
+.linkFbInsta{
+    font-size:1.5rem;
+    margin-left:2vw;
+}
+
+.facebook{
+    font-size:1.5rem;
+}
+.aLinks{
+    color: white;
+}
+
+.aFacebook:hover{
+    color: #4867aa;
+}
+
+.aInsta:hover{
+    color:#a72f92;
+}
+
+.instagram{
+    color:#a72f92;
+    font-size:1.5rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px){
+
+    .divTitolo{
+        max-width: 300px;
+        
+    }
+
+    .titoloVim{
+        font-size: 1.5rem;
+        
+    }
+
+    .divCitazione{
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 10vh;
+    }
+
+    .titoloLista{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width:430px){
+    .titoloLista{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .titoloVim{
+        text-align: center;
+    }
+   
+}
+
+@media screen and (max-width:360px){
+    .divCitazione{
+        max-width: 300px;
+    }
+
+    .citazione{
+        max-width: 225px;
+    }
+}
